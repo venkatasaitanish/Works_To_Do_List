@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complete The Works</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="icon" href="xIcon.jpg" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container-fluid head">
+                <div class="row">
+                    <div class="col-md-6 titlediv">
+                        <h1 id="headertitle">Works To Do</h1>
+                    </div>
+                    <div class="col-md-4 searchbar">
+                        <input type="text" class="form-control" id="filter" placeholder="Search the works">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="container sectclass">
+                <div class="row intit">
+                    <h3 class="innertitle">Add Works</h2>
+                </div>
+
+                <div class="row inptxt">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="workName" placeholder="Enter the Work here">
+                    </div>
+                    <div class="col-md-4 subbutton">
+                        <button type="submit" class="btn btn-dark" id="submitButton">Submit</button>
+                    </div>
+                </div>
+          
+                <div class="row intit">
+                    <h2 class="innertitle" id="worksList">Works List</h2>
+                </div>
+                <div class="work-list">
+                    <ul id="works" class="list-group">
+                        <li class="list-group-item border-dark listItem">Work 1
+                            <button class="btn btn-danger float-end btn-sm delete">X</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row clr">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-primary float-end" id="clearButton">Clear All</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>

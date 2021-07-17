@@ -1,0 +1,80 @@
+.head{
+    margin: 8px 12px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.titlediv{
+    padding: 16px 8px;
+}
+.searchbar{
+    padding: 24px 8px;
+}
+#headertitle{
+    color: ivory;
+    font-family: 'Castoro', serif;
+}
+.sectclass{
+    border: 1px solid black;
+    padding: 4px;
+    background-color: rgb(240, 212, 88);
+}
+.list-group-item{
+    height: 48px;
+    padding: 8px 0px;
+}
+ul li{
+    cursor: pointer;
+}
+ul li.listItem{
+    padding-left: 28px;
+    padding-right: 12px;
+}
+ul li:hover {
+    background-color: rgb(221, 210, 159);
+}
+ul li.checked {
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    content: "\2713  ";
+    position: absolute;
+    left: 8px;
+    color: green;
+    font-size: large;
+    font-weight: bolder;
+} 
+.clr{
+    padding: 16px;
+}
+.intit{
+    padding: 16px 0px 0px 0px;
+    margin: 0px 12px;
+}
+.inptxt{
+    margin: 0px 12px;
+}
+.list-group-item{
+    margin: 0px 24px;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0px 12px;
+}
+@media only screen and (max-width: 768px) {
+    .searchbar{
+        padding: 12px;
+    }
+    .titlediv{
+        padding: 8px 12px;
+    }
+    .subbutton{
+        padding: 8px 0px 0px 12px;
+    }
+    body{
+        margin: 0px 6px;
+    }
+}
